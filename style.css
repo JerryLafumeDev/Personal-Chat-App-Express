@@ -1,0 +1,82 @@
+html{
+    background-image: url(back.gif), url(back2.gif), url(back3.gif), url(back4.gif),
+                      url(back5.gif), url(back6.gif), url(back7.gif), url(back8.gif),
+                      url(back9.gif), url(back10.gif), url(back11.gif), url(back12.gif),
+                      url(back15.gif), url(back16.gif), url(back13.gif), url(back14.gif), 
+                      url(back14.gif);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-x: 0vw, 25vw, 50vw, 75vw, 0vw, 25vw, 50vw, 75vw, 0vw, 25vw, 50vw, 75vw;
+    background-position-y: 0%,0%,0%,0%, 22vw, 22vw, 22vw, 22vw, 45vw, 45vw, 45vw, 45vw, 68vw, 68vw, 68vw, 68vw;
+    background-size: 26%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1180px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 400px;
+    background: rgba(214, 214, 214, 0.356);
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+  #message-container {
+    width: 80%;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.589);
+    margin: 25px;
+    border-radius: 30px;
+    flex: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+  #message-container div {
+    background-color: rgba(163, 163, 163, 0.568);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+  #message-container div:nth-child(2n) {
+    background-color: rgba(86, 112, 197, 0.534);
+}
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: -81px;
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    background: rgba(214, 214, 214, 0.356);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+  #message-input {
+    height: 25px;
+    margin: 10px 10px 10px 26px;
+    border-radius: 9px;
+    width: 282px;
+
+}
+#send-button{
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height: 29px;
+}
